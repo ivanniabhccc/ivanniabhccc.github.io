@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Universidades</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<header class="topbar">
+  <div class="nav-container">
+    <a class="brand" href="#inicio">
+      <span class="brand-dot">●</span>
+      <span class="brand-name">Universidades</span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle">☰</button>
+
+    <nav class="nav" id="nav">
+      <a href="#tec">TEC</a>
+      <a href="#buap">BUAP</a>
+      <a href="#udlap">UDLAP</a>
+      <a href="#unam">UNAM</a>
+
+      <div class="dropdown">
+        <a href="#">Más ▾</a>
+        <div class="dropdown-menu">
+          <a href="#anahuac">ANÁHUAC</a>
+          <a href="#ibero">IBERO</a>
+          <a href="#panamericana">PANAMERICANA</a>
+          <a href="#itam">ITAM</a>
+          <a href="#uanl">UANL</a>
+          <a href="#uv">UV</a>
+          <a href="#harvard">HARVARD</a>
+          <a href="#oxford">OXFORD</a>
+          <a href="#paleta">PALETA</a>
+          <a href="#contacto">CONTACTO</a>
+          <a href="#carrito">CARRITO</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main id="inicio" class="page">
+
+  <section class="hero">
+    <h1>Directorio de Universidades</h1>
+    <p>Selecciona una universidad para ver más información sobre sus programas, requisitos, carreras y donde se encuentra.</p>
+  </section>
+
+  <section id="tec" class="uni">
+    <div class="uni-card">
+      <div class="uni-head">
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyk20Ycy_cY1uQYSp0FybNrp-D0F-Y8QeZTA&s" class="logo" alt="Logo">
+        <div>
+          <h2>Tecnológico de Monterrey (TEC)</h2>
+          <span class="categoria">Privada</span><br>
+          <button class="cart-btn" onclick="agregarCarrito('Guía TEC', 70)">Agregar guía</button>
+        </div>
+<img src="https://tecscience.tec.mx/es/wp-content/uploads/sites/8/2023/09/Tec-de-Monterrey-la-cuarta-mejor-universidad-en-AL.jpg" class="foto" alt="Imagen del TEC">
+      </div>
+
+      <div class="uni-grid">
+        <div class="box">
+          <h3>Programas académicos</h3>
+          <ul>
+            <li>Ingenierías</li>
+            <li>Negocios</li>
+            <li>Arquitectura</li>
+            <li>Ciencias sociales</li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h3>Requisitos de admisión</h3>
+          <ul>
+            <li>Solicitud de ingreso</li>
+            <li>Documentos escolares</li>
+            <li>Examen de admisión</li>
+            <li>Entrevista</li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h3>3 carreras de interés</h3>
+          <ul>
+            <li>Ingeniería en Sistemas</li>
+            <li>Arquitectura</li>
+            <li>Administración</li>
+          </ul>
+        </div>
+
+        <div class="box" style="grid-column: 1 / -1;">
+          <h3>Ubicación</h3>
+          <iframe src="https://www.google.com/maps?q=Tecnologico%20de%20Monterrey&output=embed" loading="lazy" title="Mapa TEC"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="buap" class="uni">
+    <div class="uni-card">
+      <div class="uni-head">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfn5A-xuWvyNMAe_SpPlVts7d7l09H-N1J7g&s" class="logo" alt="Logo BUAP">
+        <div>
+          <h2>Benemérita Universidad Autónoma de Puebla (BUAP)</h2>
+          <span class="categoria">Pública</span><br>
+          <button class="cart-btn" onclick="agregarCarrito('Guía BUAP', 50)">Agregar guía</button>
+        </div>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGkflBxGlPYPp5t7Z7b5yBAwB-SrlOv-XD9w&s" class="foto" alt="Imagen BUAP">
+      </div>
+
+      <div class="uni-grid">
+        <div class="box">
+          <h3>Programas académicos</h3>
+          <ul>
+            <li>Ciencias</li>
+            <li>Ingenierías</li>
+            <li>Salud</li>
+            <li>Humanidades</li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h3>Requisitos de admisión</h3>
+          <ul>
+            <li>Registro en convocatoria</li>
+            <li>Examen de admisión</li>
+            <li>Entrega de documentos</li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h3>3 carreras de interés</h3>
+          <ul>
+            <li>Medicina</li>
+            <li>Derecho</li>
+            <li>Ingeniería Industrial</li>
+          </ul>
+        </div>
+
+        <div class="box" style="grid-column: 1 / -1;">
+          <h3>Ubicación</h3>
+          <iframe src="https://www.google.com/maps?q=BUAP&output=embed" loading="lazy" title="Mapa BUAP"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="udlap" class="uni">
+    <div class="uni-card">
+      <div class="uni-head">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiJCQ3lqWezij0Rt1QaEvCZ-V0WTGeHslcsg&s" class="logo" alt="Logo UDLAP">
+        <div>
+          <h2>Universidad de las Américas Puebla (UDLAP)</h2>
+          <span class="categoria">Privada</span><br>
+          <button class="cart-btn" onclick="agregarCarrito('Guía UDLAP', 60)">Agregar guía</button>
+        </div>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeXfM4vezGaEaZty-hgKT2UflnP6kl6P_lVA&s" class="foto" alt="Imagen UDLAP">
+      </div>
+
+      <div class="uni-grid">
+        <div class="box">
+          <h3>Programas académicos</h3>
+          <ul>
+            <li>Negocios</li>
+            <li>Ingenierías</li>
+            <li>Relaciones internacionales</li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h3>Requisitos de admisión</h3>
+          <ul>
+            <li>Solicitud</li>
+            <li>Documentos escolares</li>
+            <li>Evaluación académica</li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h3>3 carreras de interés</h3>
+          <ul>
+            <li>Arquitectura</li>
+            <li>Mercadotecnia</li>
+            <li>Relaciones Internacionales</li>
+          </ul>
+        </div>
+
+        <div class="box" style="grid-column: 1 / -1;">
+          <h3>Ubicación</h3>
+          <iframe src="https://www.google.com/maps?q=UDLAP&output=embed" loading="lazy" title="Mapa UDLAP"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="unam" class="uni">
+    <div class="uni-card">
+      <div class="uni-head">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmc0zJ_W5vKSiHy1Wnh8RDtrgQbHd_ANvYlg&s" class="logo" alt="Logo UNAM">
+        <div>
+          <h2>Universidad Nacional Autónoma de México (UNAM)</h2>
+          <span class="categoria">Pública</span><br>
+          <button class="cart-btn" onclick="agregarCarrito('Guía UNAM', 50)">Agregar guía</button>
+        </div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiVvWkgpzZblE805qKuM0W76_N13kYTyETbQ&s" class="foto" alt="Imagen UNAM" />
+      </div>
+
+      <div class="uni-grid">
+        <div class="box">
+          <h3>Programas académicos</h3>
+          <ul>
+            <li>Ciencias</li>
+            <li>Ingeniería</li>
+            <li>Humanidades</li>
+            <li>Salud</li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h3>Requisitos de admisión</h3>
+          <ul>
+            <li>Convocatoria</li>
+            <li>Examen de admisión</li>
+            <li>Documentos escolares</li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h3>3 carreras de interés</h3>
+          <ul>
+            <li>Medicina</li>
+            <li>Ingeniería Civil</li>
+            <li>Psicología</li>
+          </ul>
+        </div>
+
+        <div class="box" style="grid-column: 1 / -1;">
+          <h3>Ubicación</h3>
+          <iframe src="https://www.google.com/maps?q=UNAM&output=embed" loading="lazy" title="Mapa UNAM"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="anahuac" class="uni">
+    <div class="uni-card">
+      <div class="uni-head">
+        <img src="https://www.enroll-u.com/_i/3/8/3/23769c6e-7567-11eb-9ff8-0295ecf211ad.png?w=276&h=276&fit=crop&s=276" class="logo" alt="Logo Anáhuac" />
+        <div>
+          <h2>Universidad Anáhuac</h2>
+          <span class="categoria">Privada</span><br>
+          <button class="cart-btn" onclick="agregarCarrito('Guía Anáhuac', 60)">Agregar guía</button>
+        </div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdJgios0JNOeeOZVLTW5dfEhPtIGCyryW5yA&s" class="foto" alt="Imagen Anáhuac" />
+      </div>
+
+      <div class="uni-grid">
+        <div class="box">
+          <h3>Programas académicos</h3>
+          <ul>
+            <li>Negocios</li>
+            <li>Derecho</li>
+            <li>Arquitectura y Diseño</li>
+            <li>Comunicación</li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h3>Requisitos de admisión</h3>
+          <ul>
+            <li>Solicitud de ingreso</li>
+            <li>Documentos escolares</li>
+            <li>Examen o evaluación</li>
+            <li>Entrevista</li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h3>3 carreras de interés</h3>
+          <ul>
+            <li>Arquitectura</li>
+            <li>Mercadotecnia</li>
+            <li>Derecho</li>
+          </ul>
+        </div>
+
+        <div class="box" style="grid-column: 1 / -1;">
+          <h3>Ubicación</h3>
+          <iframe src="https://www.google.com/maps?q=Universidad%20Anahuac%20Mexico&output=embed" loading="lazy" title="Mapa Anáhuac"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="ibero" class="uni">
+    <div class="uni-card">
+      <div class="uni-head">
+        <img src="https://yt3.googleusercontent.com/QX9oHe0M2nXKPpXWcp8miWHlIp3PzfSCZ76CGrag8mGtVnjNDZ-y1PUBjF8lj7NupYsQEFv1dNw=s900-c-k-c0x00ffffff-no-rj" class="logo" alt="Logo IBERO" />
+        <div>
+          <h2>Universidad Iberoamericana (IBERO)</h2>
+          <span class="categoria">Privada</span><br>
+          <button class="cart-btn" onclick="agregarCarrito('Guía IBERO', 60)">Agregar guía</button>
+        </div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPQXvc3IG_cYnE9OE0I-5YgcFcCoiacULbxQ&s" class="foto" alt="Imagen IBERO" />
+      </div>
+
+      <div class="uni-grid">
+        <div class="box">
+          <h3>Programas académicos</h3>
+          <ul>
+            <li>Ciencias sociales</li>
+            <li>Ingenierías</li>
+            <li>Comunicación</li>
+            <li>Diseño</li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h3>Requisitos de admisión</h3>
+          <ul>
+            <li>Solicitud</li>
+            <li>Documentos escolares</li>
+            <li>Evaluación académica</li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h3>3 carreras de interés</h3>
+          <ul>
+            <li>Comunicación</li>
+            <li>Psicología</li>
+            <li>Ingeniería Industrial</li>
+          </ul>
+        </div>
+
+        <div class="box" style="grid-column: 1 / -1;">
+          <h3>Ubicación</h3>
+          <iframe src="https://www.google.com/maps?q=Universidad%20Iberoamericana%20CDMX&output=embed" loading="lazy" title="Mapa IBERO"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section id="panamericana" class="uni">
+  <div class="uni-card">
+    <div class="uni-head">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Universidad_Panamericana_logo.png" class="logo" alt="Logo Panamericana" />
+
+      <div>
+        <h2>Universidad Panamericana</h2>
+        <span class="categoria">Privada</span><br>
+        <button class="cart-btn" onclick="agregarCarrito('Guía Panamericana', 60)">Agregar guía</button>
+      </div>
+
+      <img src="https://www.up.edu.mx/wp-content/uploads/2022/06/campus-mexico.jpg" class="foto" alt="Imagen Panamericana" />
+    </div>
+  </div>
+</section>
+
+<section id="itam" class="uni">
+  <div class="uni-card">
+    <div class="uni-head">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/ITAM_logo.png" class="logo" alt="Logo ITAM" />
+
+      <div>
+        <h2>Instituto Tecnológico Autónomo de México (ITAM)</h2>
+        <span class="categoria">Privada</span><br>
+        <button class="cart-btn" onclick="agregarCarrito('Guía ITAM', 60)">Agregar guía</button>
+      </div>
+
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/ITAM_Rio_Hondo.jpg" class="foto" alt="Imagen ITAM" />
+    </div>
+  </div>
+</section>
+
+<section id="uanl" class="uni">
+  <div class="uni-card">
+    <div class="uni-head">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/UANL_logo.svg" class="logo" alt="Logo UANL" />
+
+      <div>
+        <h2>Universidad Autónoma de Nuevo León (UANL)</h2>
+        <span class="categoria">Pública</span><br>
+        <button class="cart-btn" onclick="agregarCarrito('Guía UANL', 50)">Agregar guía</button>
+      </div>
+
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Ciudad_Universitaria_UANL.jpg" class="foto" alt="Imagen UANL" />
+    </div>
+  </div>
+</section>
+
+<section id="uv" class="uni">
+  <div class="uni-card">
+    <div class="uni-head">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Universidad_Veracruzana_logo.svg" class="logo" alt="Logo UV" />
+
+      <div>
+        <h2>Universidad Veracruzana (UV)</h2>
+        <span class="categoria">Pública</span><br>
+        <button class="cart-btn" onclick="agregarCarrito('Guía UV', 50)">Agregar guía</button>
+      </div>
+
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Universidad_Veracruzana_Xalapa.jpg" class="foto" alt="Imagen UV" />
+    </div>
+  </div>
+</section>
+
+<section id="harvard" class="uni">
+  <div class="uni-card">
+    <div class="uni-head">
+      <img src="https://upload.wikimedia.org/wikipedia/en/2/29/Harvard_shield_wreath.svg" class="logo" alt="Logo Harvard" />
+
+      <div>
+        <h2>Harvard University</h2>
+        <span class="categoria">Privada</span><br>
+        <button class="cart-btn" onclick="agregarCarrito('Guía Harvard', 80)">Agregar guía</button>
+      </div>
+
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/70/Harvard_University_Widener_Library.jpg" class="foto" alt="Imagen Harvard" />
+    </div>
+  </div>
+</section>
+
+<section id="oxford" class="uni">
+  <div class="uni-card">
+    <div class="uni-head">
+      <img src="https://upload.wikimedia.org/wikipedia/en/d/d5/Oxford_University_Circlet.svg" class="logo" alt="Logo Oxford" />
+
+      <div>
+        <h2>University of Oxford</h2>
+        <span class="categoria">Pública</span><br>
+        <button class="cart-btn" onclick="agregarCarrito('Guía Oxford', 80)">Agregar guía</button>
+      </div>
+
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Oxford_University_Radcliffe_Camera.jpg" class="foto" alt="Imagen Oxford" />
+    </div>
+  </div>
+</section>
